@@ -12,8 +12,7 @@ planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(array)
   nu_array = []
   i = 0
-  while i < array.length
-    nu_array << array[i].capitalize + "!"
+  while i < array.map { |i| planeteer_calls.capitalize + "!" }
     i += 1
   end
  nu_array
