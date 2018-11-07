@@ -14,7 +14,6 @@ def summon_captain_planet(array)
   i = 0
   array.map {i.capitalize + "!"}
     i += 1
-  end
  nu_array
 end
 summon_captain_planet(planeteer_calls)
