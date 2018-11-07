@@ -10,7 +10,7 @@ roll_call_dwarves(dwarves)
 
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet (planeteer_calls)
-  string.split.map(&:capitalize).join('earth, wind, fire, water, heart')
+  planeteer_calls.split.map(&:capitalize).join('earth, wind, fire, water, heart')
 end
 
 def long_planeteer_calls(calls)
