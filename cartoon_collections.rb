@@ -33,4 +33,3 @@ end
       cheese_types.include?(x)
     end
 end
-find_the_cheese(cheese_types)
