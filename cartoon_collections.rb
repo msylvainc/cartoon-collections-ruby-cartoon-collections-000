@@ -33,3 +33,13 @@ end
       cheese_types.include?(x)
     end
 end
+
+def words_with_b(words)
+  new_array = []
+  words.each do |word|
+    if word.include?("b")
+      new_array << word
+    end 
+  end 
+puts new_array
+end
