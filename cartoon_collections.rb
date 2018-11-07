@@ -12,7 +12,7 @@ roll_call_dwarves(dwarves)
 def summon_captain_planet(array)
   i = 0
   while i < array.map {|i|}. {|i| planeteer_calls.capitalize + "!" }
-  while i < array.length 
+  while i < array.length
     i += 1
   end
  nu_array
